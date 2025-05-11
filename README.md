@@ -6,13 +6,13 @@ To write a python program to find the inverse of a matrix
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 
-### Step1 : Augment the matrix A with the identity matrix I → [A | I].
+## Ensure the matrix is square and has a non-zero determinant.
 
-### Step 2: Use row operations to make the left side (A) into the identity matrix
+## Form the augmented matrix [A|I], where I is the identity matrix.
 
-### Step 3: Continue row operations until the left side is I 
+## Use row operations to transform [A|I] into [I|A⁻¹].
 
-### Step 4: The right side of the matrix is now A⁻¹.
+## Extract A⁻¹ from the right half of the resulting matrix.
 
 ## Program:
 ```
