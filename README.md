@@ -5,15 +5,12 @@ To write a python program to find the inverse of a matrix
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-
-## Ensure the matrix is square and has a non-zero determinant.
-
-## Form the augmented matrix [A|I], where I is the identity matrix.
-
-## Use row operations to transform [A|I] into [I|A⁻¹].
-
-## Extract A⁻¹ from the right half of the resulting matrix.
-
+```
+## Step 1:  Ensure the matrix is square and has a non-zero determinant.
+## Step 2: Form the augmented matrix [A|I], where I is the identity matrix.
+## Step 3: Use row operations to transform [A|I] into [I|A⁻¹].
+## Step 4: Extract A⁻¹ from the right half of the resulting matrix.
+```
 ## Program:
 ```
 #Program to find the inverse of a matrix.
